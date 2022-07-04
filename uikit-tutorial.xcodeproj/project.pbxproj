@@ -16,6 +16,8 @@
 		97EAB1C628730D6C00CDF6DD /* uikit_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAB1C528730D6C00CDF6DD /* uikit_tutorialTests.swift */; };
 		97EAB1D028730D6C00CDF6DD /* uikit_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAB1CF28730D6C00CDF6DD /* uikit_tutorialUITests.swift */; };
 		97EAB1D228730D6C00CDF6DD /* uikit_tutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAB1D128730D6C00CDF6DD /* uikit_tutorialUITestsLaunchTests.swift */; };
+		97EAB1DF2873127000CDF6DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 97EAB1DE2873127000CDF6DD /* README.md */; };
+		97EAB1E22873146100CDF6DD /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAB1E12873146100CDF6DD /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		97EAB1CB28730D6C00CDF6DD /* uikit-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uikit-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97EAB1CF28730D6C00CDF6DD /* uikit_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_tutorialUITests.swift; sourceTree = "<group>"; };
 		97EAB1D128730D6C00CDF6DD /* uikit_tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97EAB1DE2873127000CDF6DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97EAB1E12873146100CDF6DD /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		97EAB1AD28730D6900CDF6DD /* uikit-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				97EAB1E02873145500CDF6DD /* Models */,
 				97EAB1AE28730D6900CDF6DD /* AppDelegate.swift */,
 				97EAB1B028730D6A00CDF6DD /* SceneDelegate.swift */,
 				97EAB1B228730D6A00CDF6DD /* ReminderListViewController.swift */,
@@ -106,6 +111,7 @@
 				97EAB1B728730D6B00CDF6DD /* Assets.xcassets */,
 				97EAB1B928730D6B00CDF6DD /* LaunchScreen.storyboard */,
 				97EAB1BC28730D6B00CDF6DD /* Info.plist */,
+				97EAB1DE2873127000CDF6DD /* README.md */,
 			);
 			path = "uikit-tutorial";
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				97EAB1D128730D6C00CDF6DD /* uikit_tutorialUITestsLaunchTests.swift */,
 			);
 			path = "uikit-tutorialUITests";
+			sourceTree = "<group>";
+		};
+		97EAB1E02873145500CDF6DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				97EAB1E12873146100CDF6DD /* Reminder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			files = (
 				97EAB1BB28730D6B00CDF6DD /* LaunchScreen.storyboard in Resources */,
 				97EAB1B828730D6B00CDF6DD /* Assets.xcassets in Resources */,
+				97EAB1DF2873127000CDF6DD /* README.md in Resources */,
 				97EAB1B628730D6A00CDF6DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +276,7 @@
 				97EAB1B328730D6A00CDF6DD /* ReminderListViewController.swift in Sources */,
 				97EAB1AF28730D6900CDF6DD /* AppDelegate.swift in Sources */,
 				97EAB1B128730D6A00CDF6DD /* SceneDelegate.swift in Sources */,
+				97EAB1E22873146100CDF6DD /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
