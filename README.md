@@ -2,41 +2,52 @@
 
 UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
 
-**목차**
+## 목차
+
 [1. UIKit Essentials](#Chapter1-UIKit-Essentials)  
     [Getting Started with Today](#Getting-Started-with-Today)   
     [Creating a List View](#Creating-a-List-View)  
-        [1. Create a Project](#Section1-Creating-a-Project)  
-        [2. Add a Collection View Controller](#Section2-Add-a-Collection-View-Controller)   
-        [3. Create a Reminder Model](#Section3-Create-a-Reminder-Model)  
-        [4. Configure the Collection as a List](#Section4-Configure-the-Collection-as-a-List)   
-        [5. Configure the Data Source](#Section5-Configure-the-Data-Source)  
-        [6. Apply a Snapshot](#Section6-Apply-a-Snapshot)  
-   
+        * [1. Create a Project](#Section1-Creating-a-Project)  
+        * [2. Add a Collection View Controller](#Section2-Add-a-Collection-View-Controller)   
+        * [3. Create a Reminder Model](#Section3-Create-a-Reminder-Model)  
+        * [4. Configure the Collection as a List](#Section4-Configure-the-Collection-as-a-List)     
+        * [5. Configure the Data Source](#Section5-Configure-the-Data-Source)    
+        * [6. Apply a Snapshot](#Section6-Apply-a-Snapshot)  
+  
 [2. Collection Views and Navigation](#Chpater2-Collection-Views-and-Navigation)   
     [Adopting Collection Views](#Adopting-Collection-Views)   
-        [Displaying Collections](#Displaying-Collections)  
-        [Creating a Diffable Data Source](#Creating-a-Diffable-Data-Source)   
-        [Defining Cell Configurations](#Defining-Cell-Configurations)  
-        [Generating Data Source Snapshots](#Generating-Data-Source-Snapshots)   
+        * [Displaying Collections](#Displaying-Collections)  
+        * [Creating a Diffable Data Source](#Creating-a-Diffable-Data-Source)   
+        * [Defining Cell Configurations](#Defining-Cell-Configurations)  
+        * [Generating Data Source Snapshots](#Generating-Data-Source-Snapshots)   
     [Displaying Cell Info](#Displaying-Cell-Info)  
-        [1. Format the Date and Time](#Section1-Format-the-Date-and-Time)  
-        [2. Organize View Controllers](#Section2-Organize-View-Controllers)  
-        [3. Change the Cell Background Color](#Section3-Change-the-Cell-Background-Color)  
-        [4. Display the Reminder Complete Status](#Section4-Display-the-Reminder-Complete-Status)  
+        * [1. Format the Date and Time](#Section1-Format-the-Date-and-Time)  
+        * [2. Organize View Controllers](#Section2-Organize-View-Controllers)  
+        * [3. Change the Cell Background Color](#Section3-Change-the-Cell-Background-Color)  
+        * [4. Display the Reminder Complete Status](#Section4-Display-the-Reminder-Complete-Status)    
     [Making Reminders Identifiable](#Making-Reminders-Identifiable)  
-        [1. Make the Model Identifiable](#Section1-Make-the-Model-Identifiable)  
-        [2. Create Functions for Accessing the Model](#Section2-Create-Functions-for-Accessing-the-Model)  
-        [3. Create a Custom Button Action](#Section3-Create-a-Custom-Button-Action)  
-        [4. Wire a Target-Action Pair](#Section4-Wire-a-Target-Action-Pair)  
-        [5. Update the Snapshot](#Section5-Update-the-Snapshot)  
-        [6. Make the Action Accessible](#Section6-Make-the-Action-Accessible)  
-        [7. Preview Using the Accessibility Inspector](#Section7-Preview-Using-the-Accessibility-Inspector)  
-    [Displaying Reminder Details](#Displaying-Reminder-Details)
-        [1. Create a Reminder View](#Section1-Create-a-Reminder-View)
-        [2. Create an Enumeration for Rows](#Section2-Create-an-Enumeration-for-Rows)
-        [3. Set Up the Data Source](#Section3-Set-Up-the-Data-Source)
-        [4. Set Up a Snapshot](#Section4-Set-Up-a-Snapshot)
+        * [1. Make the Model Identifiable](#Section1-Make-the-Model-Identifiable)  
+        * [2. Create Functions for Accessing the Model](#Section2-Create-Functions-for-Accessing-the-Model)    
+        * [3. Create a Custom Button Action](#Section3-Create-a-Custom-Button-Action)    
+        * [4. Wire a Target-Action Pair](#Section4-Wire-a-Target-Action-Pair)    
+        * [5. Update the Snapshot](#Section5-Update-the-Snapshot)   
+        * [6. Make the Action Accessible](#Section6-Make-the-Action-Accessible)    
+        * [7. Preview Using the Accessibility Inspector](#Section7-Preview-Using-the-Accessibility-Inspector)        
+    [Displaying Reminder Details](#Displaying-Reminder-Details)  
+        * [1. Create a Reminder View](#Section1-Create-a-Reminder-View)  
+        * [2. Create an Enumeration for Rows](#Section2-Create-an-Enumeration-for-Rows)    
+        * [3. Set Up the Data Source](#Section3-Set-Up-the-Data-Source)  
+        * [4. Set Up a Snapshot](#Section4-Set-Up-a-Snapshot)  
+        * [5. Display the Detail View](#Section5-Display-the-Detail-View)  
+        * [6. Style the Navigation Bar](#Section6-Style-the-Navigation-Bar)    
+  
+[3. Making Editable Views](#Chpater3-Making-Editable-Views)  
+    [Getting Ready for Editing](#Getting-Ready-for-Editing)     
+    * [Create Sections for an Editing Mode](#Section1-Create-Sections-for-an-Editing-Mode)      
+    * [Configure the View and Editing Modes](#Section2-Configure-the-View-and-Editing-Modes)     
+    * [Add an Edit Button](#Section3-Add-an-Edit-Button)    
+    * [Show Headers in Editing Mode](#Section4-Show-Headers-in-Editing-Mode)  
+        
 
 
 ## Chapter1 UIKit Essentials
@@ -117,4 +128,20 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
 
 #### Section4 Set Up a Snapshot
 
-#### 
+#### Section5 Display the Detail View 
+
+
+
+## Chpater3 Making Editable Views
+----------------------------------------
+
+### Getting Ready for Editing
+
+#### Section1 Create Sections for an Editing Mode  
+
+#### Section2 Configure the View and Editing Modes  
+
+#### Section3 Add an Edit Button  
+
+#### Section4 Show Headers in Editing Mode   
+ 
