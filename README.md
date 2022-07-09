@@ -43,12 +43,17 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
   
 [3. Making Editable Views](#Chpater3-Making-Editable-Views)  
     [Getting Ready for Editing](#Getting-Ready-for-Editing)     
-    * [Create Sections for an Editing Mode](#Section1-Create-Sections-for-an-Editing-Mode)      
-    * [Configure the View and Editing Modes](#Section2-Configure-the-View-and-Editing-Modes)     
-    * [Add an Edit Button](#Section3-Add-an-Edit-Button)    
-    * [Show Headers in Editing Mode](#Section4-Show-Headers-in-Editing-Mode)  
-        
-
+        * [Create Sections for an Editing Mode](#Section1-Create-Sections-for-an-Editing-Mode)      
+        * [Configure the View and Editing Modes](#Section2-Configure-the-View-and-Editing-Modes)     
+        * [Add an Edit Button](#Section3-Add-an-Edit-Button)    
+        * [Show Headers in Editing Mode](#Section4-Show-Headers-in-Editing-Mode)     
+    [Managing Content Views](#Managing-Content-Views.)   
+    [Using Content Views](#Using-Content-Views.)         
+        * [Section1 Extract Configuration Methods](#Section1-Extract-Configuration-Methods)  
+        * [Section2 Create a Reusable Layout Function](#Section2-Create-a-Reusable-Layout-Function)   
+        * [Section1 Extract Configuration Methods](#Section1-Extract-Configuration-Methods)  
+        * [Section1 Extract Configuration Methods](#Section1-Extract-Configuration-Methods)   
+   
 
 ## Chapter1 UIKit Essentials
 ----------------------------------------
@@ -145,3 +150,10 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
 
 #### Section4 Show Headers in Editing Mode   
  
+### Managing Content Views      
+
+### Using Content Views     
+
+#### Section1 Extract Configuration Methods  
+
+#### Section2 Create a Reusable Layout Function   
