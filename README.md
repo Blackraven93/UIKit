@@ -47,15 +47,24 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
         * [Configure the View and Editing Modes](#Section2-Configure-the-View-and-Editing-Modes)     
         * [Add an Edit Button](#Section3-Add-an-Edit-Button)    
         * [Show Headers in Editing Mode](#Section4-Show-Headers-in-Editing-Mode)     
-    [Managing Content Views](#Managing-Content-Views.)   
-    [Using Content Views](#Using-Content-Views.)         
-        * [Section1 Extract Configuration Methods](#Section1-Extract-Configuration-Methods)  
-        * [Section2 Create a Reusable Layout Function](#Section2-Create-a-Reusable-Layout-Function)   
-        * [Section3 Create a Custom View with a Text Field](#Section3-Create-a-Custom-View-with-a-Text-Field)  
+    [Managing Content Views](#Managing-Content-Views)     
+    [Using Content Views](#Using-Content-Views)          
+        * [Section1 Extract Configuration Methods](#Section1-Extract-Configuration-Methods)    
+        * [Section2 Create a Reusable Layout Function](#Section2-Create-a-Reusable-Layout-Function)     
+        * [Section3 Create a Custom View with a Text Field](#Section3-Create-a-Custom-View-with-a-Text-Field)    
         * [Section4 Conform to the Content View Protocol](#Section4-Conform-to-the-Content-View-Protocol)   
-        * [Section5 Complete the Content View](#Section5-Complete-the-Content-View)
-        * [Section6 Display the Content View](#Section6-Display-the-Content-View)
+        * [Section5 Complete the Content View](#Section5-Complete-the-Content-View)  
+        * [Section6 Display the Content View](#Section6-Display-the-Content-View)  
+        * [Section7 Create Content Views for the Date and Notes](#Section7-Create-Content-Views-for-the-Date-and-Notes)
+    [Editing Reminders](#Editing-Reminders)          
+        * [Section1 Add a Working Reminder](#Section1-Add-a-Working-Reminder)    
+        * [Section2 Make the Text Configuration Editable](#Section2-Make-the-Text-Configuration-Editable)     
+        * [Section3 Make the Date Configuration Editable](#Section3-Make-the-Date-Configuration-Editable)    
+        * [Section4 Make the Notes Configuration Editable](#Section4-Make-the-Notes-Configuration-Editable)   
+        * [Section5 Cancel Edits](#Section5-Cancel-Edits)  
+        * [Section6 Observe Changes in a View Hierarchy](#Section6-Observe-Changes-in-a-View-Hierarchy)  
 
+  
 ## Chapter1 UIKit Essentials
 
 ### Getting Started with Today  
@@ -167,3 +176,19 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
 
 #### Section6 Display the Content View  
 
+#### Section7 Create Content Views for the Date and Notes
+
+
+### Editing Reminders  
+
+#### Section1 Add a Working Reminder
+
+#### Section2 Make the Text Configuration Editable
+
+#### Section3 Make the Date Configuration Editable
+
+#### Section4 Make the Notes Configuration Editable
+
+#### Section5 Cancel Edits
+
+#### Section6 Observe Changes in a View Hierarchy   
