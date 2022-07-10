@@ -5,7 +5,6 @@
 //  Created by apple developer academy on 2022/07/05.
 //
 
-import Foundation
 import UIKit
 
 extension ReminderViewController {
@@ -15,6 +14,8 @@ extension ReminderViewController {
         case viewNotes
         case viewTime
         case viewTitle
+        case editDate(Date)
+        case editText(String?)
     
     
         var imageName: String? {

@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIView {
-    func addFinedSubview(_ subview: UIView, height: CGFloat? = nil, insets: UIEdgeInsets = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)) {
+    func addPinnedSubview(_ subview: UIView, height: CGFloat? = nil, insets: UIEdgeInsets = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)) {
         // MARK: addSubview, topAnchor는 UIView에 소속되어 있음
         addSubview(subview)
         subview.translatesAutoresizingMaskIntoConstraints = false

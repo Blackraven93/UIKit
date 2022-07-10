@@ -51,85 +51,85 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
     [Using Content Views](#Using-Content-Views.)         
         * [Section1 Extract Configuration Methods](#Section1-Extract-Configuration-Methods)  
         * [Section2 Create a Reusable Layout Function](#Section2-Create-a-Reusable-Layout-Function)   
-        * [Section1 Extract Configuration Methods](#Section1-Extract-Configuration-Methods)  
-        * [Section1 Extract Configuration Methods](#Section1-Extract-Configuration-Methods)   
-   
+        * [Section3 Create a Custom View with a Text Field](#Section3-Create-a-Custom-View-with-a-Text-Field)  
+        * [Section4 Conform to the Content View Protocol](#Section4-Conform-to-the-Content-View-Protocol)   
+        * [Section5 Complete the Content View](#Section5-Complete-the-Content-View)
+        * [Section6 Display the Content View](#Section6-Display-the-Content-View)
 
 ## Chapter1 UIKit Essentials
-----------------------------------------
 
-### Getting Started with Today
+### Getting Started with Today  
    
 
-### Creating a List View
-
-#### Section1 Create a Project
-
-#### Section2 Add a Collection View Controller
-
-#### Section3 Create a Reminder Model
-
-#### Section4 Configure the Collection as a List
-
-#### Section5 Configure the Data Source
-
-#### Section6 Apply a Snapshot
+### Creating a List View  
 
 
-## Chpater2 Collection Views and Navigation
-----------------------------------------
+#### Section1 Create a Project  
 
-### Adopting Collection Views
+#### Section2 Add a Collection View Controller  
 
-#### Displaying Collections
+#### Section3 Create a Reminder Model   
 
-1. Create a data source for your collection view.
-2. Implement a cell provider that configures your collection view’s cells.
-3. Generate the current state of the data.
-4. Display the data in the user interface.
+#### Section4 Configure the Collection as a List    
 
-#### Creating a Diffable Data Source
+#### Section5 Configure the Data Source 
 
-#### Defining Cell Configurations
+#### Section6 Apply a Snapshot  
 
-#### Generating Data Source Snapshots
 
-   
-### Displaying Cell Info
+## Chpater2 Collection Views and Navigation 
 
-#### Section1 Format the Date and Time
+### Adopting Collection Views   
 
-#### Section2 Organize View Controllers
+#### Displaying Collections 
 
-#### Section3 Change the Cell Background Color
+1. Create a data source for your collection view.       
+2. Implement a cell provider that configures your collection view’s cells.      
+3. Generate the current state of the data.      
+4. Display the data in the user interface.      
 
-#### Section4 Display the Reminder Complete Status
+#### Creating a Diffable Data Source        
+
+#### Defining Cell Configurations       
+
+#### Generating Data Source Snapshots       
 
    
-### Making Reminders Identifiable
+### Displaying Cell Info        
 
-#### Section1 Make the Model Identifiable
+#### Section1 Format the Date and Time      
 
-#### Section2 Create Functions for Accessing the Model
+#### Section2 Organize View Controllers     
 
-#### Section3 Create a Custom Button Action
+#### Section3 Change the Cell Background Color      
 
-#### Section4 Wire a Target-Action Pair
-
-#### Section5 Update the Snapshot
-
-#### Section6 Make the Action Accessible
-
-#### Section7 Preview Using the Accessibility Inspector
+#### Section4 Display the Reminder Complete Status      
 
    
-### Displaying Reminder Details
+### Making Reminders Identifiable       
 
-#### Section1 Create a Reminder View
+#### Section1 Make the Model Identifiable       
 
-#### Section2 Create an Enumeration for Rows
+#### Section2 Create Functions for Accessing the Model      
 
-#### Section3 Create an Enumeration for Rows
+#### Section3 Create a Custom Button Action     
+
+#### Section4 Wire a Target-Action Pair     
+
+#### Section5 Update the Snapshot       
+
+#### Section6 Make the Action Accessible        
+
+#### Section7 Preview Using the Accessibility Inspector     
+
+   
+### Displaying Reminder Details     
+
+#### Section1 Create a Reminder View        
+
+#### Section2 Create an Enumeration for Rows        
+
+#### Section3 Set Up the Data Source
 
 #### Section4 Set Up a Snapshot
 
@@ -138,22 +138,32 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
 
 
 ## Chpater3 Making Editable Views
-----------------------------------------
 
-### Getting Ready for Editing
+### Getting Ready for Editing  
 
-#### Section1 Create Sections for an Editing Mode  
+#### Section1 Create Sections for an Editing Mode    
 
-#### Section2 Configure the View and Editing Modes  
+#### Section2 Configure the View and Editing Modes   
 
 #### Section3 Add an Edit Button  
 
-#### Section4 Show Headers in Editing Mode   
+#### Section4 Show Headers in Editing Mode      
  
-### Managing Content Views      
+
+### Managing Content Views        
+
 
 ### Using Content Views     
 
 #### Section1 Extract Configuration Methods  
 
-#### Section2 Create a Reusable Layout Function   
+#### Section2 Create a Reusable Layout Function     
+
+#### Section3 Create a Custom View with a Text Field  
+
+#### Section4 Conform to the Content View Protocol  
+
+#### Section5 Complete the Content View  
+
+#### Section6 Display the Content View  
+
