@@ -192,3 +192,21 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
 #### Section5 Cancel Edits
 
 #### Section6 Observe Changes in a View Hierarchy   
+
+
+## Chapter 4 Adding, Deleting, and Filtering Reminders  
+
+### Adding and Deleting Reminders      
+
+#### Section1 Create an Add Action  
+
+#### Section2 Connect the Target-Action Pair  
+
+#### Section3 Add a New Reminder to the Model  
+
+#### Section4 Delete a Reminder   
+
+
+### Filtering Reminders   
+
+
