@@ -32,6 +32,7 @@
 		97EAB1FF287AAF1D00CDF6DD /* UIContentConfiguration+Stateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAB1FE287AAF1D00CDF6DD /* UIContentConfiguration+Stateless.swift */; };
 		97EAB201287AE96B00CDF6DD /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAB200287AE96B00CDF6DD /* TextViewContentView.swift */; };
 		97EAB203287AEC6900CDF6DD /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAB202287AEC6900CDF6DD /* DatePickerContentView.swift */; };
+		97EAB205287B31BB00CDF6DD /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAB204287B31BB00CDF6DD /* ReminderListStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,7 @@
 		97EAB1CB28730D6C00CDF6DD /* uikit-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uikit-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97EAB1CF28730D6C00CDF6DD /* uikit_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_tutorialUITests.swift; sourceTree = "<group>"; };
 		97EAB1D128730D6C00CDF6DD /* uikit_tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		97EAB1DE2873127000CDF6DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97EAB1DE2873127000CDF6DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; tabWidth = 2; };
 		97EAB1E12873146100CDF6DD /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		97EAB1E328731B3E00CDF6DD /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		97EAB1E628731FB300CDF6DD /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		97EAB1FE287AAF1D00CDF6DD /* UIContentConfiguration+Stateless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentConfiguration+Stateless.swift"; sourceTree = "<group>"; };
 		97EAB200287AE96B00CDF6DD /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
 		97EAB202287AEC6900CDF6DD /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
+		97EAB204287B31BB00CDF6DD /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				97EAB1E8287328D600CDF6DD /* UIColor+Today.swift */,
 				97EAB1E12873146100CDF6DD /* Reminder.swift */,
 				97EAB1E328731B3E00CDF6DD /* Date+Today.swift */,
+				97EAB204287B31BB00CDF6DD /* ReminderListStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				97EAB1E9287328D600CDF6DD /* UIColor+Today.swift in Sources */,
 				97EAB1ED2873434100CDF6DD /* ReminderListViewController+Actions.swift in Sources */,
 				97EAB1EF28736DE600CDF6DD /* ReminderViewController.swift in Sources */,
+				97EAB205287B31BB00CDF6DD /* ReminderListStyle.swift in Sources */,
 				97EAB1FF287AAF1D00CDF6DD /* UIContentConfiguration+Stateless.swift in Sources */,
 				97EAB1B328730D6A00CDF6DD /* ReminderListViewController.swift in Sources */,
 				97EAB1E428731B3E00CDF6DD /* Date+Today.swift in Sources */,

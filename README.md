@@ -61,10 +61,22 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
         * [Section2 Make the Text Configuration Editable](#Section2-Make-the-Text-Configuration-Editable)     
         * [Section3 Make the Date Configuration Editable](#Section3-Make-the-Date-Configuration-Editable)    
         * [Section4 Make the Notes Configuration Editable](#Section4-Make-the-Notes-Configuration-Editable)   
-        * [Section5 Cancel Edits](#Section5-Cancel-Edits)  
+        * [Section5 Cancel Edits](#Section5-Cancel-Edits)       
         * [Section6 Observe Changes in a View Hierarchy](#Section6-Observe-Changes-in-a-View-Hierarchy)  
 
-  
+[4. Adding, Deleting, and Filtering Reminders](#Chapter4-Adding,-Deleting,-and-Filtering-Reminders)     
+    [Adding and Deleting Reminders](#Adding-and-Deleting-Reminders)          
+        * [Section1 Create an Add Action](#Section1-Create-an-Add-Action)       
+        * [Section2 Connect the Target-Action Pair](#Section2-Section2-Connect-the-Target-Action-Pair)   
+        * [Section3 Add a New Reminder to the Model](#Section3-Add-a-New-Reminder-to-the-Model)         
+        * [Section4 Delete a Reminder](#Section4-Delete-a-Reminder)     
+    [Filtering Reminders](#Filtering-Reminders)        
+        * [Section1 Create a List Style Enumeration](#Section1-Create-a-List-Style-Enumeration)    
+        * [Section2 Filter Reminders by List Style](#Section2-Filter-Reminders-by-List-Style)     
+        * [Section3 Display a Segmented Control](#Section3-Display-a-Segmented-Control)    
+        * [Section4 Add Action to Segmented Control](#Section4-Add-Action-to-Segmented-Control)     
+
+    
 ## Chapter1 UIKit Essentials
 
 ### Getting Started with Today  
@@ -209,4 +221,10 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
 
 ### Filtering Reminders   
 
+#### Section1 Create a List Style Enumeration
 
+#### Section2 Filter Reminders by List Style
+
+#### Section3 Display a Segmented Control
+
+#### Section4 Add Action to Segmented Control
