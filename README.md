@@ -74,9 +74,13 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
         * [Section1 Create a List Style Enumeration](#Section1-Create-a-List-Style-Enumeration)    
         * [Section2 Filter Reminders by List Style](#Section2-Filter-Reminders-by-List-Style)     
         * [Section3 Display a Segmented Control](#Section3-Display-a-Segmented-Control)    
-        * [Section4 Add Action to Segmented Control](#Section4-Add-Action-to-Segmented-Control)     
-
-    
+        * [Section4 Add Action to Segmented Control](#Section4-Add-Action-to-Segmented-Control)   
+            
+[5. Custom Views and Animation](#Chapter5-Custom-Views-and-Animation)    
+  [Examining Accessibility in Today](#Examining Accessibility in Today)
+  [Creating a Progress View](#Creating a Progress View)
+  [Creating a Gradient Background](#Creating a Gradient Background)
+  
 ## Chapter1 UIKit Essentials
 
 ### Getting Started with Today  
@@ -228,3 +232,13 @@ UIKit Tutorial을 공부하고 관련 지식을 공부합니다.
 #### Section3 Display a Segmented Control
 
 #### Section4 Add Action to Segmented Control
+  
+
+## Chapter 5 Custom Views and Animation   
+
+### Examining Accessibility in Today    
+
+### Creating a Progress View        
+
+### Creating a Gradient Background                 
+    
